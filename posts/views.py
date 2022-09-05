@@ -26,7 +26,7 @@ def index(request):
     showbiz_post = showbiz_post_v[:2]
 
     showbiz_post_nav = Showbiz.objects.all()[::-1]
-    showbiz_post_nav_1 = showbiz_post_nav[2]
+    # showbiz_post_nav_1 = showbiz_post_nav[2]
     showbiz_post_nav_2 = showbiz_post_nav[3]
 
     Header_Post_nav = HeaderPost.objects.all()[::-1]
@@ -123,7 +123,7 @@ def index(request):
         'sport_post_14':sport_post_14,
         'sport_post_15':sport_post_15,
         #Nav Dict
-        'showbiz_post_nav_1':showbiz_post_nav_1,
+        # 'showbiz_post_nav_1':showbiz_post_nav_1,
         'showbiz_post_nav_2':showbiz_post_nav_2,
         'header_post_nav_1':header_post_nav_1,
         'sport_post_nav_1':sport_post_nav_1,
